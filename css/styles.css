@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+p {color:#333;
+
+}
+h2 { 
+	font-size: 1.00em;
+	color: #305505;
+}
+h3 
+	{color: #9516161F
+		font: 1.25em;
+	}
+	blockquote {
+	color: #959ea3;
+	font-style:italin;
+	}
+	.date {
+		color:#000e27;	
+		font-size: 0.75em;
+		font-weight: bold;
+	}
+	a {
+		color: #f49917;
+	}
+	.nav {
+		list-style: none;
+		background-color: #6bbe0a;
+	}
+	.nav li {
+		display: inline;
+	}
+.nav a {
+	color: #fff;
+}
+#footer {
+	position: fixed;
+	left: 0em;
+	bottom: 0em;
+	height: 2.5em;
+	margin-top: 2.5em;
+}
+<div id="footer">I am footer</div>
