@@ -1,44 +1,93 @@
-body {
+
+
+/*********************************************************************/
+/* testing */
+/*********************************************************************/
+   /*this is comment*/
+  *{outline: 2px dotted red;}
+
+
+
+/*********************************************************************/
+/* whole page */
+/*********************************************************************/
+  body {
+	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
 }
-p {color:#333;
+
+
+p {
+	font-size: 1.0em;
+}
+
+
+/*********************************************************************/
+/* very top logo */
+/*********************************************************************/
+.logoimageReplacement {
+	background: url(../images/headerspices.jpg) no-repeat top right;
+}
+.logoimageReplacement h1 {
+	display: block;
+	width: 306px;
+	height: 154px;
+	background: url(../images/logo.gif) no-repeat 0 0;
+	margin-top: 0;
+	margin-bottom:0;
+	text-indent: -9999px;
+}
+
+
+/*********************************************************************/
+/* top navbar */
+/*********************************************************************/
+.nav {
+	background-color: #c1e492;
 
 }
-h2 { 
-	font-size: 1.00em;
-	color: #305505;
+.nav ul {
+	width: 930px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
-h3 
-	{color: #9516161F
-		font: 1.25em;
-	}
-	blockquote {
-	color: #959ea3;
-	font-style:italin;
-	}
-	.date {
-		color:#000e27;	
-		font-size: 0.75em;
-		font-weight: bold;
-	}
-	a {
-		color: #f49917;
-	}
-	.nav {
-		list-style: none;
-		background-color: #6bbe0a;
-	}
-	.nav li {
-		display: inline;
-	}
+
+/**/
+.nav li {
+	display: inline-block;
+	padding: 0.350em 2.0em;
+}
+
+/**/
 .nav a {
-	color: #fff;
+	color: #006a26;
+	font-weight: bold;
+	font-size: 0.750em;
 }
-#footer {
-	position: fixed;
-	left: 0em;
-	bottom: 0em;
-	height: 2.5em;
-	margin-top: 2.5em;
+
+
+/*********************************************************************/
+/* Header image with words */
+/*********************************************************************/
+.headerimage {
+	background: url(../images/homespices.jpg) no-repeat 0 0;
+	background-size: cover;
+
 }
-<div id="footer">I am footer</div>
+.headertextoverlay {width: 300px;
+					margin-left: 200px;
+					padding:26px;
+
+}
+.headertextoverlay h2 {color: white;
+						margin-bottom: 50px;
+						font-size:30px;
+
+
+}
+.headerwhitetext { background-color: white;
+
+}
+	
+
+

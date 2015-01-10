@@ -1,0 +1,232 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/* Text styles */
+.sansserif {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.serif {
+	font-family: "Times New Roman", Georgia, Times, serif;
+}
+.fontsize {
+	font-size: 2em;
+}
+.fontweight {
+	font-weight: bold;
+}
+.fontstyle {
+	font-style: italic;
+}
+.texttransform {
+	text-transform: uppercase; /* You can also use lowercase, capitalize, or none (default) */
+}
+.textdecoration {
+	text-decoration: underline; /* You can also use line-through, overline, or none */
+}
+.lineheight {
+	line-height: 1.5;
+}
+.letterspacing {
+	letter-spacing: 10px;
+}
+.wordspacing {
+	word-spacing: 40px;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.justified {
+	text-align: justify;
+}
+
+/* Margins and Padding */
+.marginsAndPadding {
+	width: 400px;
+	height: 100px;
+	margin: 20px;
+	padding: 40px;
+	background-color: #ddd;
+}
+
+/* Borders */
+.solidBorder {
+	border-width: 3px;
+	border-style: solid;
+	border-color: red;
+}
+.dottedBorder {
+	border: 3px dotted orange;
+}
+.dashedBorder {
+	border: 3px dashed yellow;
+}
+.doubleBorder {
+	border: 3px double green;
+}
+.grooveBorder {
+	border: 3px groove blue;
+}
+.ridgeBorder {
+	border: 3px ridge indigo;
+}
+.insetBorder {
+	border: 3px inset violet;
+}
+.outsetBorder {
+	border: 3px outset red;
+}
+
+/* Backgrounds */
+.backgroundColor {
+	background-color: blue;
+	color: #fff;
+	width:300px;
+}
+.background-image {
+	width:300px;
+	height:90px;
+	margin-bottom:30px;
+	background-image: url(../images/grumpycat.jpg);
+	border:1px solid #000;
+}
+.repeat-x {
+	background-repeat: repeat-x;
+}
+.repeat-y {
+	background-repeat: repeat-y;
+}
+.no-repeat {
+	background: url(../images/grumpycat.jpg) no-repeat;
+}
+.bg-position {
+	background-repeat: no-repeat;
+	background-position: 180px 30px
+}
+.bgsize-cover {
+	background-size: cover;
+}
+.bgsize-contain {
+	background-size: contain;
+}
+
+.imageReplacement a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../images/iron-yard-logo.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+/* Display */
+.inlineBlock {
+	display: inline-block;
+	background: #ccc;
+	padding: 10px;
+	margin: 20px;
+	width: 400px;
+}
+.displayNone {
+	display: none;
+}
+
+/* Gradients */
+.gradient {
+	background: #ff3232; /* Old browsers */
+	background: -moz-linear-gradient(#ff3232, #7db9e8); /* FF3.6+ */
+	background: -webkit-gradient(#ff3232,#7db9e8); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(#ff3232,#7db9e8); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(#ff3232,#7db9e8); /* Opera 11.10+ */
+	background: -ms-linear-gradient(#ff3232,#7db9e8); /* IE10+ */
+	background: linear-gradient(#ff3232,#7db9e8); /* W3C */
+	height: 150px;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+
+/* Positioning */
+.container {
+	border:1px solid #000;
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.position {
+	width: 100px;
+	height: 60px;
+	background: green;
+	padding:10px;
+}
+.absolute {
+	position:absolute;
+	top: 20px;
+	right: 20px;
+}
+.fixed {
+	position: fixed;
+	top: 100px;
+	right: 20px;
+}
+
+/* Floats */
+.floatContainer {
+	border:1px solid #000;
+	padding: 20px;
+}
+.bluebg {
+	background: blue;
+	color: #fff;
+	padding: 20px;
+}
+.floatLeft {
+	float: left;
+	width: 100px;
+	margin-right: 15px;
+}
+.floatRight {
+	float: right;
+	width: 100px;
+	margin-left: 15px;
+}
+.clearLeft {
+	clear: left;
+}
+
+
+/* THE ALMIGHTY CLEARFIX */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+/* Pseudo-class styles */
+a:link {  /* this is default, using a is sufficient */
+	color: blue;
+}
+a:visited {  /* this is optional */
+	color: purple;
+}
+a:hover {
+	color: orange;
+}
+a:active  {
+	color: red;
+}
