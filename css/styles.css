@@ -64,6 +64,10 @@ p {
 	font-weight: bold;
 	font-size: 0.750em;
 }
+ h3 {    
+
+color: #094627;
+} 
 
 
 /*********************************************************************/
@@ -74,20 +78,47 @@ p {
 	background-size: cover;
 
 }
-.headertextoverlay {width: 300px;
-					margin-left: 200px;
+.headertextoverlay {
+	                width: 300px;
 					padding:26px;
+					text-align: left;
 
 }
-.headertextoverlay h2 {color: white;
+.headertextoverlay h2 {
+	                    color: white;
 						margin-bottom: 50px;
 						font-size:30px;
+						text-align: left;
 
 
 }
 .headerwhitetext { background-color: white;
+				   width: 300px;
+				   text-align: left;
+				   padding: 10px;
+
 
 }
-	
+
+.inlineBlock {
+		display: inline-block;
+
+}
+
+#TheNews {
+
+			position: relative;
+			float: left;
+			
+
+			
+
+
+
+}
+/*********************************************************************/
+Footer
+/**********************************************************************
+
 
 
